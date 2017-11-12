@@ -1,6 +1,6 @@
 Prot16 colour values
 ====================
 
-This repo contains `.yml` files with the colour values and colour mapping of each Prot16 theme.
+This repo contains `.yml` files with the colour values of each Prot16 theme.
 
-These files are mostly for usage with the Prot16 Builder: https://github.com/protesilaos/prot16-builder.
+To view the more comprehensive source files (which also include colour mapping and terminal values) refer to the Prot16 Generator (in particular the `schemes` directory: https://github.com/protesilaos/prot16-generator
