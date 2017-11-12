@@ -1,64 +1,19 @@
-scheme: "Alto"
-author: "Protesilaos Stavrou (https://protesilaos.com/alto)"
-
-# Colour values
-valuedbg: "182D2A" # Dark background
-valuedhl: "283D3A" # Dark highlight
-valuedt2: "687D7A" # Dark bg text secondary
-valuedt1: "98ADAA" # Dark bg text primary
-valuelbg: "FAFAEC" # Light background
-valuelhl: "EAEADC" # Light highlight
-valuelt2: "8A8A7C" # Light bg text secondary
-valuelt1: "5A5A4C" # Light bg text primary
-valuered: "C6414D" # Red
-valueora: "C9753D" # Orange
-valueyel: "C6A13D" # Yellow
-valuegre: "679945" # Green
-valuecya: "57AB8B" # Cyan
-valueblu: "378BBD" # Blue
-valuevio: "9A7BC8" # Violet
-valuemag: "C97885" # Magenta
-
-# Visual order used for colour mapping
-valuep1: "378BBD" # Blue
-valuep2: "679945" # Green
-valuep3: "9A7BC8" # Violet
-values1: "57AB8B" # Cyan
-values2: "C97885" # Magenta
-valuet1: "C9753D" # Orange
-valuet2: "C6A13D" # Yellow
-valuet3: "C6414D" # Red
-
-# IMPORTANT Terminal values follow this sequence in the relevant templates:
-# 0=dhl; 1=red; 2=gre; 3=yel; 4=blu; 5=mag; 6=cya; 7=lhl;
-# 8=dbg; 9=ora; 10=lt1; 11=dt2; 12=lt2; 13=vio; 14=dt1; 15=lbg.
-# Based on the colour mapping of Solarized for terminals such those of GNOME and XFCE4.
-
-# Terminal codes for colour values
-# This presupposes that the terminal sequence is followed
-valuecdbg: "8"
-valuecdhl: "0"
-valuecdt2: "11"
-valuecdt1: "14"
-valueclbg: "15"
-valueclhl: "7"
-valueclt2: "12"
-valueclt1: "10"
-valuecred: "1"
-valuecora: "9"
-valuecyel: "3"
-valuecgre: "2"
-valueccya: "6"
-valuecblu: "4"
-valuecvio: "13"
-valuecmag: "5"
-
-# Terminal accent colours corresponding to the visual order
-valuecp1: "4"
-valuecp2: "2"
-valuecp3: "13"
-valuecs1: "6"
-valuecs2: "5"
-valuect1: "9"
-valuect2: "3"
-valuect3: "1"
+scheme: "alto"
+url: "https://protesilaos.com/alto"
+author: "Protesilaos Stavrou <public@protesilaos.com>"
+dbg: "182d2a" # Dark background
+dhl: "283d3a" # Dark highlight
+dt2: "687d7a" # Dark bg text secondary
+dt1: "98adaa" # Dark bg text primary
+lbg: "fafaec" # Light background
+lhl: "eaeadc" # Light highlight
+lt2: "8a8a7c" # Light bg text secondary
+lt1: "5a5a4c" # Light bg text primary
+red: "c6414d" # Red
+ora: "c9753d" # Orange
+yel: "c6a13d" # Yellow
+gre: "679945" # Green
+cya: "57ab8b" # Cyan
+blu: "378bbd" # Blue
+vio: "9a7bc8" # Violet
+mag: "c97885" # Magenta
